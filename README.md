@@ -5,9 +5,11 @@ We then plot the success of the QEC code vs. the error probability $p$. Finally,
 
 We measure syndromes using the four generators of the stabilizer group of the $5$-qubit code, given by
 ```math 
-g_1=\,X\otimes Z\otimes Z \otimes X \otimes I\\
-g_2=\,I\otimes X\otimes Z \otimes Z \otimes X\\
-g_3=\,X\otimes I\otimes X \otimes Z \otimes Z\\
-g_4=\,Z\otimes X\otimes I \otimes X \otimes Z
+\begin{align*}
+g_1&=\,X\otimes Z\otimes Z \otimes X \otimes I\\
+g_2&=\,I\otimes X\otimes Z \otimes Z \otimes X\\
+g_3&=\,X\otimes I\otimes X \otimes Z \otimes Z\\
+g_4&=\,Z\otimes X\otimes I \otimes X \otimes Z.\\
+\end{align*}
 ```
 
