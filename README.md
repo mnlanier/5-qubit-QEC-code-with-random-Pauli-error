@@ -5,10 +5,12 @@ We then plot the success of the QEC code vs. the error probability $p$. Finally,
 
 We measure syndromes using the four generators of the stabilizer group of the $5$-qubit code, given by
 ```math 
-\begin{align*}g_1&=\,X\otimes Z\otimes Z \otimes X \otimes I\\
-g_2&=\,I\otimes X\otimes Z \otimes Z \otimes X\\
-g_3&=\,X\otimes I\otimes X \otimes Z \otimes Z\\
-g_4&=\,Z\otimes X\otimes I \otimes X \otimes Z
+\begin{align*}g_1&=\,X Z Z  X  I\\
+g_2&=\,I X Z  Z  X\\
+g_3&=\,X I X  Z  Z\\
+g_4&=\,Z X I  X  Z.
 \end{align*}
 ```
+An example of how we decode syndromes can be shown for $X_0$, or, in other words, the case where there is an $X$ error on the $0$th qubit. The operator that represents this error is given by $XIIII$ and then we ask which stabilizers commute with this operator. We can see that $[g_i,XIIII]=0$ for $i=0,1,2,3$ and $[g_4,XIII]\neq 0$ thus our syndrome for $X_0$ is $0001$.
+
 
