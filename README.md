@@ -11,6 +11,6 @@ g_3&=\,X I X  Z  Z\\
 g_4&=\,Z X I  X  Z.
 \end{align*}
 ```
-An example of how we decode syndromes can be shown for $X_0$, or, in other words, the case where there is an $X$ error on the $0$ th qubit. The operator that represents this error is given by $XIIII$ and then we ask which stabilizers commute with this operator. We can see that $[g_i,XIIII]=0$ for $i=0,1,2,3$ and $[g_4,XIII]\neq 0$ thus our syndrome for $X_0$ is $0001$.
+An example of how we decode syndromes can be shown for $X_0$, or, in other words, the case where there is an $X$ error on the $0$ th qubit. The operator that represents this error is given by $XIIII$ and then we ask which stabilizers commute with this operator. We can see that $[g_i,XIIII]=0$ for $i=0,1,2,3$ and $[g_4,XIII]\neq 0$ thus our syndrome for $X_0$ is $0001$. We can create the remaining syndromes in a similar fashion.
 
 
